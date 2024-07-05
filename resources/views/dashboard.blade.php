@@ -62,8 +62,8 @@
                 <div class="p-6 bg-white border-b border-gray-200">
                     <h3 class="text-2xl font-semibold mb-4">Alumni Dashboard</h3>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                        <a href="{{ url('portfolio') }}" class="bg-blue-500 text-white px-4 py-2 rounded">Create Portfolio</a>
-                        <a href="{{ url('jobs/notifications') }}" class="bg-teal-500 text-white px-4 py-2 rounded">View Job Notifications</a>
+                        <a href="{{ url('portfolios') }}" class="bg-blue-500 text-white px-4 py-2 rounded">Create Portfolio</a>
+                        <a href="{{ url('job/notifications') }}" class="bg-teal-500 text-white px-4 py-2 rounded">View Job Notifications</a>
                     </div>
                 </div>
             </div>
